@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html,css, scpipt.js">
+    <meta name="author" content="Лидия Трощинская">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Mesto</title>
+</head>
+
+<body class="page">
+<header class="header">
+ <img class="header__logo" src="./images/__logo.svg" alt="Лого Mesto">
+
+</header>
+
+<main class="content">
+    <section class="profile">
+        <div class="profile__info">
+            <img class="profile__avatar" src=./images/Jacque-Ive%20Cousteau.png alt="Жак-Ив Кусто">
+            <div class="profile__title-group">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button type="button" class="profile_button"></button>
+            <p class="profile__subtitle">Исследователь океана</p>
+            </div>
+            <button type="button" class="profile__addButton"></button>
+        </div>
+
+    </section>
+
+    <section class="gallery">
+        <ul class="photo-cards">
+            <li>
+            <img src="images/Бердянськ.jpg" class="card-image" alt="Бердянськ">
+            <div clas="photo__card-item">
+                <p class="photo__card-title">Бердянськ</p>
+                <button type="button" class="photo__card-like"></button>
+            </div>
+            </li>
+            <li>
+                <img src="images/Зеленоградск.jpg" class="card-image" alt="Зеленоградск">
+                <div clas="photo__card-item">
+                    <p class="photo__card-title">Зеленоградск</p>
+                    <button type="button" class="photo__card-like"></button>
+                </div>
+            </li>
+            <li>
+                <img src="images/Philippines.jpg" class="card-image" alt="Филиппины">
+                <div clas="photo__card-item">
+                    <p class="photo__card-title">Филиппины</p>
+                    <button type="button" class="photo__card-like"></button>
+                </div>
+            </li>
+            <li>
+                <img src="images/Херсонская%20область.jpg" class="card-image" alt="Херсонская область">
+                <div clas="photo__card-item">
+                    <p class="photo__card-title">Херсонская область</p>
+                    <button type="button" class="photo__card-like"></button>
+                </div>
+            </li>
+            <li>
+                <img src="images/Крым.jpg" class="card-image" alt="Крым.Судак">
+                <div clas="photo__card-item">
+                    <p class="photo__card-title">Куршская коса</p>
+                    <button type="button" class="photo__card-like"></button>
+                </div>
+            </li>
+            <li>
+                <img src="images/Балтийское%20море.jpg" class="card-image" alt="Балтийское море">
+                <div clas="photo__card-item">
+                    <p class="photo__card-title">Балтийское море</p>
+                    <button type="button" class="photo__card-like"></button>
+                </div>
+            </li>
+
+        </ul>
+
+    </section>
+    <section class="footer">
+       <p class="footer-copyright">© 2022. Mesto Russia</p>
+    </section>
+</main>
+<div class="popup">
+    <div class="popup__container">
+        <button class="popup__close"></button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <h3 class="popup__title">Жак-Ив Кусто</h3>
+        <h3 class="popup__title">Исследователь океана</h3>
+        <button type="button" class="photo__card-like">Сохранить</button>
+
+    </div>
+</div>
+
+<script src="./script/index.js"></script>
+</body>
+</html>
