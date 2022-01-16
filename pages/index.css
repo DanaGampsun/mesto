@@ -6,18 +6,26 @@
 @import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/profile__avatar/profile__avatar.css);
-@import url(../blocks/profile/profile__title-group/profile__title-group.css);
-@import url(../blocks/profile/profile__info/profile__info.css);
-@import url(../blocks/profile/profile__subtitle/profile__subtitle.css);
-@import url(../blocks/profile/profile__title/profile__title.css);
+@import url(../blocks/profile/__button/profile__button.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__title-group/profile__title-group.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__title/profile__title.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/background-item/background-item.css);
 @import url(../blocks/gallery/card-image/card-image.css);
 @import url(../blocks/gallery/photo-cards/photo-cards.css);
-@import url(../blocks/gallery/photo__card-item/photo__card-item.css);
-@import url(../blocks/gallery/photo__card-like/photo__card-like.css);
-@import url(../blocks/gallery/photo__card-title/photo__card-title.css);
+@import url(../blocks/gallery/__card-item/photo__card-item.css);
+@import url(../blocks/gallery/__card-like/photo__card-like.css);
+@import url(../blocks/gallery/__card-title/photo__card-title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer-copyright/footer-copyright.css);
+
+
 
 
 

@@ -1,0 +1,8 @@
+.profile__title-group {
+    display: flex;
+    width: 336px;
+    padding-bottom: 16px;
+align-items: baseline;
+    padding-right: 244px;
+
+}

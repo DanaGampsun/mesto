@@ -1,0 +1,10 @@
+.photo__card-like {
+    background-image: url(/images/Vectorlike.svg);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 22px;
+    width: 19px;
+    align-items: center;
+
+}
