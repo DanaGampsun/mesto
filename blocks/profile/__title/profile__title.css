@@ -8,3 +8,13 @@
     margin: 0;
     align-items: center;
 }
+@media screen and (max-width: 320px) {
+    .profile__title {
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
+        padding-right: 10px;
+        width: 189px;
+
+    }
+}

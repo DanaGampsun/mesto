@@ -6,3 +6,12 @@ align-items: baseline;
     padding-right: 244px;
 
 }
+@media screen and (max-width: 320px) {
+    .profile__title-group {
+        width: 282px;
+padding-right: 0;
+        align-items: center;
+        padding-top: 26px;
+        margin:0 auto;
+    }
+}

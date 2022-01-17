@@ -1,4 +1,6 @@
 .photo__card-item {
     display: flex;
-
+justify-content: space-between;
+    align-items: center;
+    padding: 25px 21px 15px;
 }
