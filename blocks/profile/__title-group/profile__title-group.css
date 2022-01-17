@@ -2,16 +2,17 @@
     display: flex;
     width: 336px;
     padding-bottom: 16px;
-align-items: baseline;
+    align-items: baseline;
     padding-right: 244px;
 
 }
+
 @media screen and (max-width: 320px) {
     .profile__title-group {
-        width: 282px;
-padding-right: 0;
-        align-items: center;
+        width: 224px;
+        padding-right: 0;
         padding-top: 26px;
-        margin:0 auto;
+        padding-bottom: 14px;
+
     }
 }

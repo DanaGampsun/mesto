@@ -1,4 +1,15 @@
 .profile__info-group {
     display: flex;
+    flex-direction: column;
 
+
+}
+
+@media screen and (max-width: 320px) {
+    .profile__info-group {
+        padding-bottom: 36px;
+        align-items: center;
+
+
+    }
 }
