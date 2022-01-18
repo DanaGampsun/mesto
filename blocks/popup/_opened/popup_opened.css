@@ -1,6 +1,5 @@
-.popup__opened {
+.popup_opened {
     display: flex;
-    visibility: visible;
-    position: relative;
+
 
 }
