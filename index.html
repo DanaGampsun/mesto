@@ -86,17 +86,18 @@
         <p class="footer-copyright">© 2022. Mesto Russia</p>
     </section>
 </main>
-<div class="popup">
+<div class="popup popup_opened">
     <div class="popup__container">
-        <button class="popup__close"></button>
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <h3 class="popup__title">Жак-Ив Кусто</h3>
-        <h3 class="popup__title">Исследователь океана</h3>
-        <button type="button" class="photo__card-like">Сохранить</button>
-
+        <button class="popup__button-close"></button>
+        <h4 class="popup__title">Редактировать профиль</h4>
+        <form class="popup__form">
+        <input class="popup__input popup__input_name" type="text" value="" placeholder="Имя" id="profile_name" required>
+        <input class="popup__input popup__input_about_myself" type="text" placeholder="O cебе" value="" id="profile_title">
+        <button class="popup__submit" type="submit">Сохранить</button>
+        </form>
     </div>
 </div>
 
-<script src="./script/index.js"></script>
+<script src="./scripts/index.js"></script>
 </body>
 </html>
