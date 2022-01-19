@@ -3,18 +3,22 @@
     background-repeat: no-repeat;
     background-color: black;
     min-width: 150px;
+
     border: none;
     cursor: pointer;
     align-items: center;
     background-position: 50%;
     cursor: pointer;
+    transition: .3s;
+}
 
-
+.profile__add-button:hover {
+    opacity: .5;
 }
 
 @media screen and (max-width: 320px) {
     .profile__add-button {
-        background-image: url("/images/Add Button.svg");
+        background-image: url("../../../images/Add Button.svg");
         width: 282px;
         height: 50px;
 

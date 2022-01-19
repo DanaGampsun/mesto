@@ -10,9 +10,10 @@
 @media screen and (max-width: 320px) {
     .profile__title-group {
         width: 224px;
+        line-height: 33px;
         padding-right: 0;
         padding-top: 26px;
-        padding-bottom: 14px;
+        padding-bottom: 7px;
 
     }
 }

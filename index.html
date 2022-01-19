@@ -34,7 +34,7 @@
 
     </section>
 
-    <section class="photo">
+    <div class="photo">
         <ul class="photo-cards">
             <li class="background-item">
                 <img src="images/Бердянськ.jpg" class="card-image" alt="Бердянськ">
@@ -81,18 +81,18 @@
 
         </ul>
 
-    </section>
-    <section class="footer">
+    </div>
+    <div class="footer">
         <p class="footer-copyright">© 2022. Mesto Russia</p>
-    </section>
+    </div>
 </main>
-<div class="popup">
+<div class="popup"">
     <div class="popup__container">
         <button class="popup__button-close"></button>
         <h4 class="popup__title">Редактировать профиль</h4>
         <form class="popup__form">
-        <input class="popup__input popup__input_name" type="text" value="" placeholder="Имя" id="profile_name" required>
-        <input class="popup__input popup__input_about_myself" type="text" placeholder="O cебе" value="" id="profile_title">
+        <input class="popup__input popup__input_name" type="text" value=""  id="profile__title" required>
+        <input class="popup__input popup__input_about_myself" type="text"  value="" id="profile__subtitle">
         <button class="popup__submit" type="submit">Сохранить</button>
         </form>
     </div>

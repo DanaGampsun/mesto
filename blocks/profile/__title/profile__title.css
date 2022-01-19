@@ -7,6 +7,7 @@
     padding-right: 18px;
     margin: 0;
     align-items: center;
+    grid-area: profile__title;
 }
 
 @media screen and (max-width: 320px) {

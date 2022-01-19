@@ -5,5 +5,18 @@
     background-color: black;
     color: white;
     cursor: pointer;
-    transition: opacity 0.3s linear;
+    font-size: 18px;
+    transition: .3s linear;
+}
+
+.popup__submit:hover {
+    opacity: .8;
+}
+@media screen and (max-width: 320px) {
+    .popup__submit {
+        margin-top: 45px;
+        font-size: 14px;
+        width: 238px;
+        height: 46px;
+    }
 }

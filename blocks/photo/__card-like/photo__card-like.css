@@ -8,5 +8,9 @@
     width: 22px;
     align-items: center;
     cursor:pointer;
+    transition: .3s linear;
 
+}
+.photo__card-like:hover {
+    background-image: url(../../../images/Union.svg);
 }
