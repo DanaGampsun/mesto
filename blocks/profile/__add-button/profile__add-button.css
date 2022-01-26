@@ -3,19 +3,21 @@
     background-repeat: no-repeat;
     background-color: black;
     min-width: 150px;
-
+    min-height: 50px;
     border: none;
     cursor: pointer;
     align-items: center;
     background-position: 50%;
     transition: .3s;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .profile__add-button:hover {
-    opacity: .5;
+    opacity: .6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1000px) {
     .profile__add-button {
         background-image: url("../../../images/Add Button.svg");
         width: 282px;

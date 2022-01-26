@@ -12,5 +12,5 @@
 }
 
 .photo__card-like:hover {
-    background-image: url(../../../images/Union.svg);
+    opacity: .6;
 }
