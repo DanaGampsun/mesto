@@ -20,59 +20,57 @@
 <main class="content">
 
     <section class="profile">
-        <div class="profile__info">
-            <img class="profile__avatar" src=./images/Jacque-Ive%20Cousteau.png alt="Жак-Ив Кусто">
-            <div class="profile__info-group">
-                <div class="profile__title-group">
-                    <h1 class="profile__title">Жак-Ив Кусто</h1>
-                    <button type="button" class="profile__button"></button>
-                </div>
-                <p class="profile__subtitle">Исследователь океана</p>
+        <img class="profile__avatar" src=./images/Jacque-Ive%20Cousteau.png alt="Жак-Ив Кусто">
+        <div class="profile__info-group">
+            <div class="profile__title-group">
+                <h1 class="profile__title">Жак-Ив Кусто</h1>
+                <button type="button" class="profile__button"></button>
             </div>
-            <button type="button" class="profile__add-button"></button>
+            <p class="profile__subtitle">Исследователь океана</p>
         </div>
+        <button type="button" class="profile__add-button"></button>
 
     </section>
 
     <div class="photo">
-        <ul class="photo-cards">
-            <li class="background-item">
-                <img src="images/Бердянськ.jpg" class="card-image" alt="Бердянськ">
+        <ul class="photo__cards">
+            <li class="photo__item">
+                <img src="images/Бердянськ.jpg" class="photo__image" alt="Бердянськ">
                 <div class="photo__card-item">
                     <p class="photo__card-title">Бердянськ</p>
                     <button type="button" class="photo__card-like"></button>
                 </div>
             </li>
-            <li class="background-item">
-                <img src="images/Зеленоградск.jpg" class="card-image" alt="Зеленоградск">
+            <li class="photo__item">
+                <img src="images/Зеленоградск.jpg" class="photo__image" alt="Зеленоградск">
                 <div class="photo__card-item">
                     <p class="photo__card-title">Зеленоградск</p>
                     <button type="button" class="photo__card-like"></button>
                 </div>
             </li>
-            <li class="background-item">
-                <img src="images/Philippines.jpg" class="card-image" alt="Филиппины">
+            <li class="photo__item">
+                <img src="images/Philippines.jpg" class="photo__image" alt="Филиппины">
                 <div class="photo__card-item">
                     <p class="photo__card-title">Филиппины</p>
                     <button type="button" class="photo__card-like"></button>
                 </div>
             </li>
-            <li class="background-item">
-                <img src="images/Херсонская%20область.jpg" class="card-image" alt="Херсонская область">
+            <li class="photo__item">
+                <img src="images/Херсонская%20область.jpg" class="photo__image" alt="Херсонская область">
                 <div class="photo__card-item">
                     <p class="photo__card-title">Херсонская область</p>
                     <button type="button" class="photo__card-like"></button>
                 </div>
             </li>
-            <li class="background-item">
-                <img src="images/Крым.jpg" class="card-image" alt="Крым.Судак">
+            <li class="photo__item">
+                <img src="images/Крым.jpg" class="photo__image" alt="Крым.Судак">
                 <div class="photo__card-item">
                     <p class="photo__card-title">Куршская коса</p>
                     <button type="button" class="photo__card-like"></button>
                 </div>
             </li>
-            <li class="background-item">
-                <img src="images/Балтийское%20море.jpg" class="card-image" alt="Балтийское море">
+            <li class="photo__item">
+                <img src="images/Балтийское%20море.jpg" class="photo__image" alt="Балтийское море">
                 <div class="photo__card-item">
                     <p class="photo__card-title">Балтийское море</p>
                     <button type="button" class="photo__card-like"></button>
@@ -83,7 +81,7 @@
 
     </div>
     <div class="footer">
-        <p class="footer-copyright">© 2022. Mesto Russia</p>
+        <p class="footer__copyright">© 2022. Mesto Russia</p>
     </div>
 </main>
 <div class="popup">
@@ -91,9 +89,9 @@
         <button class="popup__button-close"></button>
         <h4 class="popup__title">Редактировать профиль</h4>
         <form class="popup__form">
-        <input class="popup__input popup__input_name" type="text" value=""  id="profile__title" required>
-        <input class="popup__input popup__input_about_myself" type="text"  value="" id="profile__subtitle">
-        <button class="popup__submit" type="submit">Сохранить</button>
+            <input class="popup__input popup__input_name" type="text" value="" id="profile__title" required>
+            <input class="popup__input popup__input_job" type="text" value="" id="profile__subtitle">
+            <button class="popup__submit" type="submit">Сохранить</button>
         </form>
     </div>
 </div>

@@ -6,10 +6,9 @@ const popupCloseButton = document.querySelector(".popup__button-close")
 
 let formElement = document.querySelector(".popup__form")
 let PopupNameInput = document.querySelector(".popup__input_name")
-let PopupInputAboutMyself = document.querySelector(".popup__input_about_myself")
+let PopupInputAboutMyself = document.querySelector(".popup__input_job")
 let InputName = document.querySelector(".profile__title")
 let InputAboutMySelf = document.querySelector(".profile__subtitle")
-
 
 
 function openPopup() {
@@ -29,13 +28,14 @@ function formSubmitHandler(evt) {
     InputAboutMySelf.textContent = PopupInputAboutMyself.value;
     closePopup()
 }
+
 /*Добавляем логику в обработчики*/
 OpenProfileButton.addEventListener("click", openPopup)
 popupCloseButton.addEventListener("click", closePopup)
 formElement.addEventListener("submit", formSubmitHandler)
 
-popup.addEventListener("click", function(event){
-    if(event.target === event.currentTarget) {
+popup.addEventListener("click", function (event) {
+    if (event.target === event.currentTarget) {
         closePopup()
     }
 })
