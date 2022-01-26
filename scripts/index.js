@@ -6,7 +6,7 @@ const popupCloseButton = document.querySelector(".popup__button-close")
 
 let formElement = document.querySelector(".popup__form")
 let PopupNameInput = document.querySelector(".popup__input_name")
-let PopupInputAboutMyself = document.querySelector(".popup__input_about_myself")
+let PopupInputAboutMyself = document.querySelector(".popup__input_job")
 let InputName = document.querySelector(".profile__title")
 let InputAboutMySelf = document.querySelector(".profile__subtitle")
 
