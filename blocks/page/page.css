@@ -13,3 +13,21 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 1024px) {
+    .page {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .page {
+        margin: 0;
+    }
+}
