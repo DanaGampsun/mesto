@@ -14,12 +14,6 @@
         padding-top: 42px;
         align-items: center;
         max-width: 282px;
-
     }
 }
 
-@media screen and (max-width: 450px) {
-    .profile {
-        margin: 0 19px 0;
-    }
-}
